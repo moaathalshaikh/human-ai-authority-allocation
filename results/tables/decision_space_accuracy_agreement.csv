@@ -1,0 +1,12 @@
+party,unscaffolded,scaffolded
+claude-haiku-4-5,0.835,0.897
+deepseek-chat,0.779,0.867
+gpt-4o-mini,0.604,0.652
+A1,0.811,
+A2,0.779,
+A3,0.735,
+H1,,0.912
+H2,,0.938
+human mean,0.775,0.925
+kappa pairwise,0.670/0.697/0.726,0.944
+kappa Fleiss,0.697,

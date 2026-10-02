@@ -1,0 +1,32 @@
+#,Code,Definition
+1,CI FACILITATES THE TRANSITION TO AGILE,CI makes more comfortable the transition from prescriptive methods to agile philosophy.
+2,CI IS ASSOCIATED TO MULTI-ENVIRONMENT TESTS,CI contributes to the execution of tests covering multiple environments and platforms.
+3,CI IS ASSOCIATED WITH A COMMIT PATTERN CHANGE,"It is about any change in the commit patterns (size, frequency, time etc)"
+4,CI IS ASSOCIATED WITH A DECREASE IN MAGNETISM AND RETENTION,Magnetism is about to attract developers to a project; Retention is about maitaining contributors in a project;
+5,CI IS ASSOCIATED WITH A DECREASE IN TIME TO LEAD DEFECTS,
+6,CI IS ASSOCIATED WITH A DECREASED PERCEPTION OF PRODUCTIVITY,"It is about a decreasing productivity (efficiency; lines of code, time to release, volume of code, features quantity etc)"
+7,CI IS ASSOCIATED WITH A DECREASING IN BUILD TIME,
+8,CI IS ASSOCIATED WITH A FEED BACK FREQUENCY INCREASE,CI makes developers receive more quickly feedback about their change.
+9,CI IS ASSOCIATED WITH A POSITIVE IMPACT ON INTEGRATION PRACTICE,It is related to any positive impact on integration metrics or general practices.
+10,CI IS ASSOCIATED WITH A WORKLOAD REDUCTION,"The workload is related to personal pressure, stress, work overhead."
+11,CI IS ASSOCIATED WITH ADDING EXTRA COMPLEXITY,Increase in workload related to CI
+12,CI IS ASSOCIATED WITH AN IMPROVEMENT IN PROCESS AUTOMATION,"It is related to actions, tools, and techniques adopted to implement a more automated development pipeline."
+13,CI IS ASSOCIATED WITH AN IMPROVEMENT IN PROCESS RELIABILITY,"An increase in transparency, stability, predictability of development process and environment."
+14,CI IS ASSOCIATED WITH AN IMPROVEMENT IN SATISFACTION,Any impact on developers' satisfaction
+15,CI IS ASSOCIATED WITH AN INCREASE IN COOPERATION,"It is about an increase in code sharing, contribution and communication."
+16,CI IS ASSOCIATED WITH BUILD HEALTH,It is related to good build metrics or actions aiming achieve this.
+17,CI IS ASSOCIATED WITH CONFIDENCE IMPROVEMENT,CI promotes improvement in developers' confidence to execute changes and contributions.
+18,CI IS ASSOCIATED WITH DEFECTS REDUCTION,CI IS ASSOCIATED WITH DEFECT REDUCTION
+19,CI IS ASSOCIATED WITH HUMAN CHALLENGES,"CI brings difficulties for adopting workers (workload, learning curve etc.)"
+20,CI IS ASSOCIATED WITH ISSUES REDUCTION,It is about issue tracker items reduction.
+21,CI IS ASSOCIATED WITH ORGANIZATIONAL CHALLENGES,"CI brings difficulties for adopting organizations (costs, number of employees etc.)"
+22,CI IS ASSOCIATED WITH SOFTWARE DEVELOPMENT BENEFITS,"It is related to positive generic claims or an improvement in high level metrics, such as project success."
+23,CI IS ASSOCIATED WITH TECHNICAL CHALLENGES,CI IS ASSOCIATED WITH ADDING EXTRA COMPLEXITY
+24,CI IS ASSOCIATED WITH TO FAVOR CONTINUOUS REFACTORING,Positive influence from CI in continuous refactoring
+25,CI IS RELATED TO AN INCREASE QUALITY ASSESSMENT,It is related to improvement in metrics and practices related to quality assessment in a general way.
+26,CI IS RELATED TO NEGATIVE IMPACTS ON PULL REQUESTS LIFE-CYCLE,"CI affects the pull requests lifecycle negatively (duration, acceptance delay, rejection...)"
+27,CI IS RELATED TO POSITIVE IMPACTS ON PULL REQUESTS LIFE-CYCLE,"CI affects the pull requests lifecycle positively (duration, acceptance delay, rejection...)"
+28,CI IS RELATED TO POSITIVE IMPACTS ON RELEASE CYCLE,
+29,CI IS RELATED TO POSITIVE IMPACTS ON TEST PRACTICE,"CI is related to improvement in tests metrics, such as: coverage, quality, amount, automation, etc."
+30,CI IS RELATED TO PRODUCTIVITY AND EFFICIENCY INCREASING,"It is about an increasing productivity (efficiency; lines of code, time to release, volume of code, features quantity etc)"
+31,CI MAY GENERATE A FALSE SENSE OF CONFIDENCE,CI may generate a confidence without reliability.

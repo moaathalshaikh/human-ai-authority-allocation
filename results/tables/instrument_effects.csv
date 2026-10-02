@@ -1,0 +1,4 @@
+model,drift_pct,off_codebook,off_codebook_pct,acc_all,acc_compliant
+claude-haiku-4-5,0.2,0,0.0,0.897,0.897
+deepseek-chat,0.0,0,0.0,0.867,0.867
+gpt-4o-mini,21.8,142,12.6,0.652,0.746

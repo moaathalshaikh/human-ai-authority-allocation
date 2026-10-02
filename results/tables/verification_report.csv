@@ -1,0 +1,111 @@
+paper_location,quantity,reported,recomputed,status
+3.1,claims,113,113,PASS
+3.1,codes,31,31,PASS
+3.1,themes,6,6,PASS
+3.1,studies,36,36,PASS
+3.1,claims per theme (min-max),5-29,5-29,PASS
+3.1,codes per theme (min-max),2-10,2-10,PASS
+3.1,codes carrying a single claim,11,11,PASS
+3.1,claims with no recorded variables,34,34,PASS
+3.1,labels beginning 'CI IS ASSOCIATED WITH',22,22,PASS
+3.1,labels beginning 'CI IS RELATED TO',6,6,PASS
+3.1,codes without a written definition,3,3,PASS
+3.2,median scaffolded choice set,8,8,PASS
+3.2,% claims under a theme of <=4 codes,48.7,48.7,PASS
+3.2,theme header matches reference theme (H1 sheet),113 of 113,113 of 113,PASS
+Table: decision-space effects,accuracy H1,0.912,0.912,PASS
+Table: decision-space effects,accuracy H2,0.938,0.938,PASS
+Table: decision-space effects,accuracy A1,0.811,0.811,PASS
+Table: decision-space effects,accuracy A2,0.779,0.779,PASS
+Table: decision-space effects,accuracy A3,0.735,0.735,PASS
+Table: decision-space effects,A1 denominator (abstentions excluded),111,111,PASS
+3.2,abstentions (A1),2,2,PASS
+3.2,remarks A1 / A2 / A3,4/2/3,4/2/3,PASS
+Table: decision-space effects,human mean scaffolded,0.925,0.925,PASS
+Table: decision-space effects,human mean unscaffolded,0.775,0.775,PASS
+4.1,human accuracy drop (points),15.0,15.0,PASS
+Table: decision-space effects,Cohen kappa H1-H2,0.944,0.944,PASS
+Table: decision-space effects,claims coded by every unscaffolded annotator,111,111,PASS
+Table: decision-space effects,pairwise kappa (A1-A3 / A2-A3 / A1-A2),0.670/0.697/0.726,0.670/0.697/0.726,PASS
+Table: decision-space effects,Fleiss kappa A1-A3,0.697,0.697,PASS
+4.1,kappa drop,0.247,0.247,PASS
+4.1,H1+H2 cross-theme errors,1 of 17,1 of 17,PASS
+3.3,unscaffolded model decisions,"16,950","16,950",PASS
+3.3,scaffolded model decisions,"3,390","3,390",PASS
+3.5,all decisions,"21,003","21,003",PASS
+3.5,JSON parse success,100%,100%,PASS
+Table: decision-space effects,accuracy claude-haiku-4-5 unscaffolded L1,0.835,0.835,PASS
+Table: decision-space effects,accuracy claude-haiku-4-5 scaffolded,0.897,0.897,PASS
+Table: decision-space effects,accuracy deepseek-chat unscaffolded L1,0.779,0.779,PASS
+Table: decision-space effects,accuracy deepseek-chat scaffolded,0.867,0.867,PASS
+Table: decision-space effects,accuracy gpt-4o-mini unscaffolded L1,0.604,0.604,PASS
+Table: decision-space effects,accuracy gpt-4o-mini scaffolded,0.652,0.652,PASS
+4.1,model gain range (points),4.9-8.8,4.9-8.8,PASS
+4.1,Claude lead over unscaffolded human mean,6.1,6.1,PASS
+4.1,human lead over scaffolded Claude,2.7,2.7,PASS
+4.1,apparent model deficit,8.9,8.9,PASS
+4.1,model cross-theme errors at L1,465 of 884 (52.6%),465 of 884 (52.6%),PASS
+4.1,C916 scaffolded (Claude): reference code in all runs,yes,yes,PASS
+3.5,"NO MATCHING CODE abstentions (Claude, outside L1)",10,10,PASS
+4.2,"invalid strings, unscaffolded","1,247 (7.4%)","1,247 (7.4%)",PASS
+4.2,abbreviated SOFTWARE DEVELOPMENT BENEFITS,"1,167","1,167",PASS
+Table: instrument effects,drift % (Claude / DeepSeek / GPT),0.2/0.0/21.8,0.2/0.0/21.8,PASS
+4.2,invalid strings carrying the correct judgement,110,110,PASS
+4.2,normalisation shift gpt-4o-mini (points),1.7,1.7,PASS
+4.2,normalisation shift claude-haiku-4-5 (points),0.2,0.2,PASS
+4.2,abbreviated string on claims of other themes,132,132,PASS
+4.2,themes it was carried onto,5,5,PASS
+Table: instrument effects,off-codebook (Claude / DeepSeek / GPT),0/0/142,0/0/142,PASS
+Table: instrument effects,off-codebook % GPT,12.6,12.6,PASS
+Table: instrument effects,compliant accuracy (Claude / DeepSeek / GPT),0.897/0.867/0.746,0.897/0.867/0.746,PASS
+4.5,tiers T0/T1/T2/T3,102/5/1/5,102/5/1/5,PASS
+4.3,claims wrong in every scaffolded run of all three models,7,7,PASS
+4.3,"of those, claims where H1/H2 also diverged",2,2,PASS
+4.3,T3 claims carrying the PR positive-impacts code,4,4,PASS
+4.3,"of those, coded NEGATIVE IMPACTS by both annotators",3,3,PASS
+4.3,C1004 scaffolded: all models HUMAN CHALLENGES in every run,yes,yes,PASS
+4.3,unscaffolded annotators remarking on a resistant claim,3,3,PASS
+4.4,cells varying across runs (DeepSeek / Claude / GPT),0.7/3.0/16.3,0.7/3.0/16.3,PASS
+4.4,stable-wrong at L1 (DeepSeek / Claude / GPT),25/16/36,25/16/36,PASS
+4.4,stable-wrong scaffolded (DeepSeek / Claude / GPT),15/11/33,15/11/33,PASS
+4.4,DeepSeek stable-wrong: mean confidence,0.728,0.728,PASS
+4.4,DeepSeek stable-wrong: claims at or above 0.80,16,16,PASS
+4.4,C987 DeepSeek: same wrong code in 10 runs at 0.85,yes,yes,PASS
+Table: confidence bands,bands claude-haiku-4-5,2.7/0.800 3.5/0.487 37.1/0.761 56.8/0.907,2.7/0.800 3.5/0.487 37.1/0.761 56.8/0.907,PASS
+Table: confidence bands,bands deepseek-chat,0.8/0.000 6.3/0.141 1.8/0.000 91.2/0.845,0.8/0.000 6.3/0.141 1.8/0.000 91.2/0.845,PASS
+Table: confidence bands,bands gpt-4o-mini,5.6/0.000 0.4/0.000 16.5/0.075 15.8/0.564 61.7/0.813,5.6/0.000 0.4/0.000 16.5/0.075 15.8/0.564 61.7/0.813,PASS
+4.4,withheld at 0.8 (Claude / DeepSeek),43.2/8.8,43.2/8.8,PASS
+4.4,"GPT decisions in [0.4,0.6)",186,186,PASS
+4.4,GPT decisions at confidence exactly zero,63,63,PASS
+4.4,"DeepSeek decisions in [0.6,0.8), correct","20, 0","20, 0",PASS
+4.4,accuracy on varying vs stable claims (claude-haiku-4-5),3: 13.3 vs 110: 85.5,3: 13.3 vs 110: 85.5,PASS
+4.4,accuracy on varying vs stable claims (gpt-4o-mini),37.1 vs 63.6,37.1 vs 63.6,PASS
+4.4,Claude sub-threshold claims: accuracy,74.3,74.3,PASS
+3.4,escalated / retained at 0.8,49/64,49/64,PASS
+3.4,escalated set equals the claims on the escalation sheets,yes,yes,PASS
+Table: escalation composition,row c<0.6,7 | 4 (57.1%) | 106 | 7 (6.6%) | 0.571 | 0.714,7 | 4 (57.1%) | 106 | 7 (6.6%) | 0.571 | 0.714,PASS
+Table: escalation composition,row c<0.7,9 | 4 (44.4%) | 104 | 7 (6.7%) | 0.667 | 0.778,9 | 4 (44.4%) | 104 | 7 (6.7%) | 0.667 | 0.778,PASS
+Table: escalation composition,row c<0.8,49 | 7 (14.3%) | 64 | 4 (6.2%) | 0.878 | 0.918,49 | 7 (14.3%) | 64 | 4 (6.2%) | 0.878 | 0.918,PASS
+Table: escalation composition,row c<0.9,98 | 11 (11.2%) | 15 | 0 (0.0%) | 0.898 | 0.929,98 | 11 (11.2%) | 15 | 0 (0.0%) | 0.898 | 0.929,PASS
+4.5,retained-set accuracy H1 / H2,0.938/0.953,0.938/0.953,PASS
+4.5,inter-annotator disagreements inside escalated set,4 of 6,4 of 6,PASS
+4.5,enrichment ratio / odds ratio,2.3/2.50,2.3/2.50,PASS
+4.5,claims Claude coded wrongly in every L1 run,18,18,PASS
+4.5,"of those, in a human-unstable tier / T3",6/2,6/2,PASS
+4.5,r_auto / acc_auto (decision level),0.568/0.907,0.568/0.907,PASS
+4.5,pipeline bound (unit / H1 / H2),0.947/0.894/0.912,0.947/0.894/0.912,PASS
+4.6,decisions,98,98,PASS
+4.6,blind / post accuracy,0.898/0.816,0.898/0.816,PASS
+4.6,harmful / corrective revisions,9/1,9/1,PASS
+4.6,revision rate after correct / incorrect blind judgement (%),10.2/10.0,10.2/10.0,PASS
+4.6,harmful revisions per annotator (H2 / H1),7/2,7/2,PASS
+4.6,harmful revisions where the model was itself wrong,8,8,PASS
+4.6,accept / reject / unsure,73/24/1,73/24/1,PASS
+4.6,revision after acceptance / rejection (%),4.1/25.0,4.1/25.0,PASS
+4.6,forced rejections,14 of 24,14 of 24,PASS
+4.6,revision rate on merits / forced,0.200/0.286,0.200/0.286,PASS
+4.6,harmful revisions to a third code,7 of 9,7 of 9,PASS
+4.6,harmful revisions involving an available code,5 of 9,5 of 9,PASS
+4.6,model confidence on harmful / other decisions,0.711/0.683,0.711/0.683,PASS
+4.6,model accuracy on the 49 escalated claims,0.735,0.735,PASS
+4.6,"C982: both reject, both record WORKLOAD REDUCTION",yes,yes,PASS

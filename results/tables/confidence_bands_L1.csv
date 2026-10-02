@@ -1,0 +1,14 @@
+model,band,share_pct,accuracy
+claude-haiku-4-5,"[0.2,0.4)",2.7,0.800
+claude-haiku-4-5,"[0.4,0.6)",3.5,0.487
+claude-haiku-4-5,"[0.6,0.8)",37.1,0.761
+claude-haiku-4-5,"[0.8,1.0]",56.8,0.907
+deepseek-chat,"[0.2,0.4)",0.8,0.000
+deepseek-chat,"[0.4,0.6)",6.3,0.141
+deepseek-chat,"[0.6,0.8)",1.8,0.000
+deepseek-chat,"[0.8,1.0]",91.2,0.845
+gpt-4o-mini,"[0.0,0.2)",5.6,0.000
+gpt-4o-mini,"[0.2,0.4)",0.4,0.000
+gpt-4o-mini,"[0.4,0.6)",16.5,0.075
+gpt-4o-mini,"[0.6,0.8)",15.8,0.564
+gpt-4o-mini,"[0.8,1.0]",61.7,0.813

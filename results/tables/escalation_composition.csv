@@ -1,0 +1,5 @@
+threshold,escalated_n,escalated_unstable,retained_n,retained_unstable,H1_acc_escalated,H2_acc_escalated
+c<0.6,7,4 (57.1%),106,7 (6.6%),0.571,0.714
+c<0.7,9,4 (44.4%),104,7 (6.7%),0.667,0.778
+c<0.8,49,7 (14.3%),64,4 (6.2%),0.878,0.918
+c<0.9,98,11 (11.2%),15,0 (0.0%),0.898,0.929
