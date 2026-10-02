@@ -254,30 +254,32 @@ included alongside the returned ones so that each correction can be checked.
 
 ## 10. Citation
 
-If you use this package, please cite the article and the source review whose
-artefact it reuses. Machine-readable metadata is in
-[`CITATION.cff`](CITATION.cff).
+If you use this package, please cite the article it accompanies. GitHub's
+**Cite this repository** button, in the sidebar, reads the same metadata
+from [`CITATION.cff`](CITATION.cff).
+
+> Alshaikh, M., Alshaher, T., Santana, B., Mendes, T., Carneiro, G., Santos,
+> J. A. M., Freire, S., & Mendonça, M. (2026). *Who Decides, and on What
+> Evidence? A Failure Taxonomy for Human–AI Authority Allocation in Software
+> Engineering Evidence Synthesis.* Manuscript under review.
 
 ```bibtex
-@article{soares2022ci,
-  author  = {Soares, Eliezio and Sizilio, Gustavo and Santos, Jadson and
-             da Costa, Daniel Alencar and Kulesza, Uir{\'a}},
-  title   = {The Effects of Continuous Integration on Software Development:
-             A Systematic Literature Review},
-  journal = {Empirical Software Engineering},
-  volume  = {27}, pages = {78}, year = {2022},
-  doi     = {10.1007/s10664-021-10114-1}
-}
-
-@misc{soares2021zenodo,
-  author    = {Soares, Eliezio and Sizilio, Gustavo and Santos, Jadson and
-               Alencar, Daniel and Kulesza, Uir{\'a}},
-  title     = {{SLR} Artifacts -- {CONTINUOUS INTEGRATION QUALITY IMPACTS}},
-  version   = {v.1.0.2},
-  publisher = {Zenodo}, year = {2021},
-  doi       = {10.5281/zenodo.4545623}
+@misc{alshaikh2026whodecides,
+  author = {Alshaikh, Moaath and Alshaher, Tasneem and Santana, Beatriz and
+            Mendes, Thiago and Carneiro, Glauco and
+            Santos, Jos{\'e} Amancio Macedo and Freire, S{\'a}vio and
+            Mendon{\c{c}}a, Manoel},
+  title  = {Who Decides, and on What Evidence? {A} Failure Taxonomy for
+            Human--{AI} Authority Allocation in Software Engineering
+            Evidence Synthesis},
+  year   = {2026},
+  note   = {Manuscript under review. Replication package}
 }
 ```
+
+The source material this package reuses is credited, with its licence, in
+[Section 8](#8-provenance-licences-and-corrections) and in
+[`data/README.md`](data/README.md).
 
 ---
 

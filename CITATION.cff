@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this replication package, please cite it as below, and cite the source review whose artefact it reuses."
+message: "If you use this replication package, please cite it as below."
 type: dataset
 title: "Who Decides, and on What Evidence? A Failure Taxonomy for Human-AI Authority Allocation in Software Engineering Evidence Synthesis: replication package"
 authors:
@@ -27,7 +27,27 @@ authors:
   - family-names: Mendonça
     given-names: Manoel
     orcid: "https://orcid.org/0000-0002-0874-7665"
+version: "1.0.0"
+date-released: "2026-10-02"
 license: MIT
+abstract: >-
+  Data, instruments, prompts and scripts for a study of the evidence on which
+  human-in-the-loop arrangements for delegating deductive coding to language
+  models rest. The package contains 113 reference claims and their 31-code
+  taxonomy, five blind human coding sheets, two escalation-round sheets with
+  every instrument as sent, and 20,340 decisions from three language models
+  under scaffolded and unscaffolded conditions. A single script recomputes 110
+  quantities reported in the accompanying article and checks each against
+  the value printed there.
+keywords:
+  - human-AI collaboration
+  - authority allocation
+  - large language models
+  - deductive coding
+  - evidence synthesis
+  - inter-rater reliability
+  - empirical software engineering
+  - replication package
 references:
   - type: article
     title: "The effects of continuous integration on software development: a systematic literature review"
