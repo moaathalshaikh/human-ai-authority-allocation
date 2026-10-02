@@ -28,6 +28,13 @@ authors:
     given-names: Manoel
     orcid: "https://orcid.org/0000-0002-0874-7665"
 version: "1.0.0"
+doi: "10.5281/zenodo.23100872"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23100872"
+    description: "Zenodo archive of version 1.0.0"
+repository-code: "https://github.com/moaathalshaikh/human-ai-authority-allocation"
+url: "https://github.com/moaathalshaikh/human-ai-authority-allocation"
 date-released: "2026-10-02"
 license: MIT
 abstract: >-

@@ -4,6 +4,7 @@
 
 ### Replication package for *A Failure Taxonomy for Human–AI Authority Allocation in Software Engineering Evidence Synthesis*
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23100872-blue.svg)](https://doi.org/10.5281/zenodo.23100872)
 [![Code licence: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Source data: CC BY 4.0](https://img.shields.io/badge/source%20data-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-informational.svg)](requirements.txt)
@@ -99,7 +100,7 @@ no GPU; under 30 MB of disk. Re-running the models additionally requires API
 keys for the three providers.
 
 ```bash
-git clone <this repository>
+git clone https://github.com/moaathalshaikh/human-ai-authority-allocation.git
 cd human-ai-authority-allocation
 pip install -r requirements.txt
 python scripts/06_reproduce_paper.py
@@ -254,9 +255,19 @@ included alongside the returned ones so that each correction can be checked.
 
 ## 10. Citation
 
-If you use this package, please cite the article it accompanies. GitHub's
-**Cite this repository** button, in the sidebar, reads the same metadata
-from [`CITATION.cff`](CITATION.cff).
+The permanent, citable version of this package is archived at Zenodo:
+**https://doi.org/10.5281/zenodo.23100872** (v1.0.0). This GitHub repository is where the
+package is maintained; the Zenodo record is the version analysed in the
+article. GitHub's **Cite this repository** button, in the sidebar, reads
+the same metadata from [`CITATION.cff`](CITATION.cff).
+
+Please cite the replication package and the article it accompanies:
+
+> Alshaikh, M., Alshaher, T., Santana, B., Mendes, T., Carneiro, G., Santos,
+> J. A. M., Freire, S., & Mendonça, M. (2026). *Who Decides, and on What
+> Evidence? A Failure Taxonomy for Human-AI Authority Allocation in Software
+> Engineering Evidence Synthesis: replication package* (Version v1.0.0)
+> [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23100872
 
 > Alshaikh, M., Alshaher, T., Santana, B., Mendes, T., Carneiro, G., Santos,
 > J. A. M., Freire, S., & Mendonça, M. (2026). *Who Decides, and on What
@@ -264,6 +275,20 @@ from [`CITATION.cff`](CITATION.cff).
 > Engineering Evidence Synthesis.* Manuscript under review.
 
 ```bibtex
+@software{alshaikh2026replication,
+  author    = {Alshaikh, Moaath and Alshaher, Tasneem and Santana, Beatriz and
+               Mendes, Thiago and Carneiro, Glauco and
+               Santos, Jos{\'e} Amancio Macedo and Freire, S{\'a}vio and
+               Mendon{\c{c}}a, Manoel},
+  title     = {Who Decides, and on What Evidence? {A} Failure Taxonomy for
+               Human--{AI} Authority Allocation in Software Engineering
+               Evidence Synthesis: Replication Package},
+  version   = {v1.0.0},
+  publisher = {Zenodo},
+  year      = {2026},
+  doi       = {10.5281/zenodo.23100872}
+}
+
 @misc{alshaikh2026whodecides,
   author = {Alshaikh, Moaath and Alshaher, Tasneem and Santana, Beatriz and
             Mendes, Thiago and Carneiro, Glauco and
